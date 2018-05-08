@@ -1,3 +1,5 @@
+LABEL version="1.1"
+
 FROM fedora:26
 
 ADD install_criterion.sh /root/
