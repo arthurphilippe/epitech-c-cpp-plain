@@ -1,6 +1,6 @@
 FROM fedora:26
 
-LABEL version="1.5"
+LABEL version="1.6"
 ADD install_criterion.sh /root/
 
 RUN dnf -y update && dnf -y install gcc gcc-c++ wget bzip2 tar git openssh make gcovr cmake findutils unzip\
